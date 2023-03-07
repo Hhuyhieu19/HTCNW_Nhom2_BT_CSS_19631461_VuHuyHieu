@@ -1,0 +1,40 @@
+
+#background{
+    box-shadow: 0px 1px 2px 0px black;
+    width: 650px;
+    height: 375px;
+    margin-left: 200px;
+}
+.header{
+    background-color: rgb(99, 97, 97);
+    height: 100px;
+}
+.nav{
+    float: left;
+    display: flex;
+    background-color: darkgray;
+    height: 275px;
+}
+.nav .menu li a{
+    text-decoration: none;
+}
+.nav .menu li{
+    list-style: none;
+}
+.menu p{
+    position: relative;
+    left: -30px;
+    top: -30px;
+}
+.content{
+    float: right;
+    width: 507px;
+    height: 275px;
+    line-height: 16px;
+}
+.content p b{
+    font-size: 20px;
+}
+.content img{
+    padding: 2px 5px 5px 5px;
+}

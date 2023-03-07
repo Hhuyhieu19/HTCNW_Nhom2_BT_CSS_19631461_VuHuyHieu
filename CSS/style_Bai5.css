@@ -1,0 +1,8 @@
+#background{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-image: url(../IMG/anh1.png), url(../IMG/anh2.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}

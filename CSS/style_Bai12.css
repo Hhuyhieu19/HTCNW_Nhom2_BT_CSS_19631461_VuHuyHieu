@@ -1,0 +1,33 @@
+#background{
+    box-shadow: 0px 1px 2px 3px black;
+    width: 900px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 160px;
+}
+.Header{
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 0 -3px 3px #000000;
+    font-size: 50px;
+}
+
+
+.Ribbon{
+    font-size: 30px;
+    box-shadow: 0 0 10px #888888;
+    -webkit-box-shadow: 0 0 10px #888888;
+    -moz-box-shadow: 0 0 10px #888888;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 46px;
+    transform: rotate(-45deg);
+    text-align: center;
+    margin-top: -342px;
+    margin-left: -65px;
+    border-style: double double;
+    clip-path: polygon(17% 0, 82% 0, 100% 100%, 0 100%);
+}
+.Ribbon p{
+    position: relative;
+    margin-top: 9px;
+}

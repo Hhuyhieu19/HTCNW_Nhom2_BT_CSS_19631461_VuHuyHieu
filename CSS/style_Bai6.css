@@ -1,0 +1,25 @@
+#background{
+    box-shadow: 0px 1px 2px black;
+    width: 800px;
+    text-align: center;
+    margin-left: 200px;
+}
+p{
+    margin-left: 50px;
+}
+.container .row{
+    width: 100%;
+}
+.row::before, .row:after{
+    display:  table;
+    content: "";
+}
+.row:after{
+    clear: both;
+}
+.col1, .col2, .col3 {
+    float: left;
+    width: 25.333333333%;
+    margin: 1%;
+    padding: 1%;
+}

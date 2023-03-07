@@ -1,0 +1,46 @@
+#background{
+    box-shadow: 0px 1px 2px black;
+    background-color: aliceblue;
+    width: 700px;
+    height: 420px;
+    margin-left: 200px;
+}
+table {
+    border-collapse: collapse;
+    width: 700px;
+  }
+  
+table th, table td {
+    text-align: left;
+    padding: 8px;
+    border: 3px solid rgb(248, 247, 247);
+}
+  
+table th {
+    background-color: rgb(161, 159, 159);
+    text-align: center;
+}
+  
+col.col2 {
+    background-color: rgb(0, 45, 128);
+}
+  
+col.col1 {
+    background-color: rgb(0, 45, 128);
+}
+  
+col.col3 {
+    background-color: green;
+}
+  
+col.col4 {
+    background-color: pink;
+}
+  
+col.col5 {
+    background-color: pink;
+}
+  
+tr:last-child td {
+    background-color: gray;
+}
